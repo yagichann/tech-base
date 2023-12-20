@@ -10,9 +10,9 @@
     <?php
 
         //データベースへの接続
-        $dsn = 'mysql:dbname=tb250554db;host=localhost';
-        $user = 'tb-250554';
-        $password = '6NyXDghatG';
+        $dsn = 'mysql:dbname=データベース名;host=localhost';
+        $user = 'ユーザ名';
+        $password = 'パスワード';
         $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
         $pass_flag = 0;
         $edit_flag = 0;
